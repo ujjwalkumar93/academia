@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include academia *.css
+recursive-include academia *.csv
+recursive-include academia *.html
+recursive-include academia *.ico
+recursive-include academia *.js
+recursive-include academia *.json
+recursive-include academia *.md
+recursive-include academia *.png
+recursive-include academia *.py
+recursive-include academia *.svg
+recursive-include academia *.txt
+recursive-exclude academia *.pyc
