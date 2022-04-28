@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{institute_name}-{branch}",
+ "creation": "2022-04-11 01:04:18.201817",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "institute_name",
+  "branch",
+  "contact_details_section",
+  "phone_number",
+  "column_break_5",
+  "email",
+  "address_details_section",
+  "complete_address",
+  "social_media_details_section",
+  "facebook_url",
+  "instagram_url",
+  "column_break_12",
+  "twitter_url",
+  "linkedin_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "institute_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Institute Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "complete_address",
+   "fieldtype": "Small Text",
+   "label": "Complete Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Table",
+   "label": "Email",
+   "options": "Institute Email Id"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Table",
+   "label": "Phone Number",
+   "options": "Institute Phone Number"
+  },
+  {
+   "fieldname": "facebook_url",
+   "fieldtype": "Data",
+   "label": "Facebook Url"
+  },
+  {
+   "fieldname": "instagram_url",
+   "fieldtype": "Data",
+   "label": "Instagram Url"
+  },
+  {
+   "fieldname": "twitter_url",
+   "fieldtype": "Data",
+   "label": "Twitter Url"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "address_details_section",
+   "fieldtype": "Section Break",
+   "label": "Address Details"
+  },
+  {
+   "fieldname": "social_media_details_section",
+   "fieldtype": "Section Break",
+   "label": "Social Media Details"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "linkedin_url",
+   "fieldtype": "Data",
+   "label": "Linkedin Url"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-11 01:20:50.973558",
+ "modified_by": "Administrator",
+ "module": "Academia",
+ "name": "Institute",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{subject_name}-{course}-{academic_year}",
+ "creation": "2022-04-11 02:03:51.546164",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "academic_year",
+  "subject_name",
+  "course",
+  "column_break_4",
+  "batch",
+  "syllabus_details_section",
+  "syllabus"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject_name",
+   "fieldtype": "Data",
+   "label": "Subject Name"
+  },
+  {
+   "fieldname": "syllabus",
+   "fieldtype": "Table",
+   "label": "Syllabus",
+   "options": "Syllabus"
+  },
+  {
+   "fieldname": "batch",
+   "fieldtype": "Table",
+   "label": "Batch",
+   "options": "Batch List"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic Year",
+   "options": "Academic Year"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "syllabus_details_section",
+   "fieldtype": "Section Break",
+   "label": "Syllabus Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-13 23:02:37.942328",
+ "modified_by": "Administrator",
+ "module": "Academia",
+ "name": "Subject",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

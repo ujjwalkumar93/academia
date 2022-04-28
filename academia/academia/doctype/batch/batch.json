@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{competition_name}-{batch_title}-{batch_subtitle}-{academic_year}",
+ "creation": "2022-04-11 01:44:29.483963",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "batch_title",
+  "batch_subtitle",
+  "competition_name",
+  "academic_year",
+  "start_date",
+  "end_date",
+  "actual_end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "batch_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Batch Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "batch_subtitle",
+   "fieldtype": "Data",
+   "label": "Batch Subtitle",
+   "reqd": 1
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "actual_end_date",
+   "fieldtype": "Date",
+   "label": "Actual End Date"
+  },
+  {
+   "fieldname": "competition_name",
+   "fieldtype": "Link",
+   "label": "Competition Name",
+   "options": "Competition"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-13 23:21:02.710259",
+ "modified_by": "Administrator",
+ "module": "Academia",
+ "name": "Batch",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
